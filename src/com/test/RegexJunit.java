@@ -8,7 +8,7 @@ public class RegexJunit {
 	@Test
 	public void firstNameHappy() {
 		UserDetails userDetails = new UserDetails();
-		boolean output = userDetails.firstName("rakesh");
+		boolean output = userDetails.firstName("Rakesh");
 		assertEquals(true, output);
 	}
 	
